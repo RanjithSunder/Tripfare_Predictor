@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Data & Models
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+
+# OS / IDE
+.DS_Store
+.env
+.venv
+.vscode/
+.idea/
