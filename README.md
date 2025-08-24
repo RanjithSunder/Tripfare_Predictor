@@ -72,6 +72,15 @@ The trained model will be saved in the `models/` directory.
 - If model isn’t available, the app falls back to rule-based predictions.
 
 ---
+## ⚠️ Note on Large Files
+This project uses [Git LFS](https://git-lfs.github.com/) to manage large files (datasets & models).
+Make sure to install Git LFS before cloning:
+```bash
+git lfs install
+git clone https://github.com/RanjithSunder/Tripfare_Predictor.git
+```
+---
 
 ## 📜 License
+
 MIT License
